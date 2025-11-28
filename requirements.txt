@@ -6,6 +6,8 @@ google-auth-oauthlib==1.2.0
 google-auth-httplib2==0.2.0
 oauth2client==4.1.3
 httplib2==0.22.0
+Flask==3.1.2
+gunicorn==21.2.0
 
 # IMAP email handling
 imapclient==2.3.1
