@@ -7,7 +7,7 @@ load_dotenv()
 
 #local file
 #GOOGLE_SHEETS_CREDENTIALS_FILE = "./southern-flash-479404-v0-e17ef4cbcd38.json"
-#SPREADSHEET_ID = "1X-ZDU-DWwKbk3OoVqzdDV6BIJqtTwHBCTVKED_FipUE"
+#SPREADSHEET_ID = "sheetlinkID"
 
 #read json
 #GOOGLE_SHEETS_CREDENTIALS_JSON =os.getenv("service_acc_secret_file")

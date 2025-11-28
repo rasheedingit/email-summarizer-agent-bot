@@ -2,11 +2,10 @@ import os
 
 from openai import OpenAI
 from dotenv import load_dotenv
-load_dotenv() 
+load_dotenv()
 
 client =  OpenAI(
   base_url="https://openrouter.ai/api/v1",
-  #api_key="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",
   api_key=os.getenv("model_api_key")
 )
 
