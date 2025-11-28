@@ -39,8 +39,8 @@ async def text_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 def main():
     load_dotenv()
+    print("Bot has started.. waiting for user's input")
     app = ApplicationBuilder().token(TELEGRAM_BOT_TOKEN).build()
-
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("summarize", summarize_cmd))
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, text_handler))

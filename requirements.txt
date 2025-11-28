@@ -1,0 +1,14 @@
+python-telegram-bot==21.6
+openai>=1.40.0
+gspread==6.1.2
+google-auth==2.29.0
+google-auth-oauthlib==1.2.0
+google-auth-httplib2==0.2.0
+oauth2client==4.1.3
+httplib2==0.22.0
+
+# IMAP email handling
+imapclient==2.3.1
+
+# Environment variable support (optional but recommended)
+python-dotenv==1.0.1
